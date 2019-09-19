@@ -2,6 +2,7 @@ var express = require('express');
 var router = express.Router();
 var TokenService = require('../services/tokenService');
 
+
 // POST /token
 router.post('/', function(req, res) {
   var deviceId = req.body.device;

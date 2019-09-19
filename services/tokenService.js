@@ -3,6 +3,7 @@ const twilio = require('twilio');
 const AccessToken = twilio.jwt.AccessToken;
 const ChatGrant = AccessToken.ChatGrant;
 
+
 function TokenGenerator(identity, deviceId) {
   const appName = 'TwilioChat';
 
